@@ -1,5 +1,5 @@
-class NomeInvalidoError(Exception):
-    """Lançada quando o nome do produto está vazio ou inválido."""
+class CampoVazioError(Exception):
+    """Lançada quando um ou mais campos estão vazios/inválidos."""
 
     def __init__(self,msg):
         """Armazena a mensagem de erro."""
